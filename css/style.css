@@ -11,16 +11,7 @@ body {
     height: 100vh;
     padding: 50px;
 }
-/* .task-table {
-    max-width: 100%;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.5);
-    
-    backdrop-filter: blur(10px);
-    
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-} */
+
 .to-do {
     background-color: rgba(10, 49, 129, 0.818);
     backdrop-filter: blur(20px);
@@ -114,8 +105,9 @@ button.circular.E {
 }
 
 .task span {
-    font-size: 15px;
+    font-size: 14px;
     color: gray;
+    
 }   
 .task.completed {
     background: rgba(0, 150, 30, 0.25);
@@ -184,37 +176,40 @@ body.dark .task.completed h3 {
 }
 /* Mobile */
 @media (max-width:600px){
+
     body {
         padding: 20px;
     }
-    .task {
-
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
+    h1{
+        font-size: 25px;
     }
-    .task span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    .btn {
-        width: 100%;
-        justify-content: center;
-        gap: 40px;
-    }
-
-    input {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-}
-
-
-@media (max-width: 600px) {
     .task-table {
-        max-height: 70vh;
+        max-height: 90vh;
+    }
+    
+    .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 15px;
+    }
+    span {
+        font-size: 10px;
+    }
+    button.circular {
+    
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    line-height: 0;
     }
 }
+
+
+

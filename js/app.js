@@ -43,9 +43,10 @@ function renderTasks() {
         taskDiv.innerHTML = `
             <div>
                 <h2>${task.title}</h2>
-                <span>
-                    <i style="padding-left:10px" class="fa-regular fa-calendar-days"></i>
+                <span style="padding-top:5px">
+                    
                     ${task.date}
+
                 </span>
             </div>
 
