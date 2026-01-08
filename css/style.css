@@ -11,7 +11,16 @@ body {
     height: 100vh;
     padding: 50px;
 }
-
+/* .task-table {
+    max-width: 100%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    
+    backdrop-filter: blur(10px);
+    
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
 .to-do {
     background-color: rgba(10, 49, 129, 0.818);
     backdrop-filter: blur(20px);
@@ -172,7 +181,7 @@ body.dark .task.completed h3 {
 .buttons {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 /* Mobile */
 @media (max-width:600px){
