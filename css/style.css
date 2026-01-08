@@ -181,13 +181,13 @@ body.dark .task.completed h3 {
 .buttons {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 /* Mobile */
-@media (max-width:600px){
+@media (max-width:600px), (max-height:700px) {
 
     body {
-        padding: 20px;
+        padding:35px 20px;
     }
     h1{
         font-size: 25px;
@@ -200,9 +200,14 @@ body.dark .task.completed h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 15px;
     }
     h2{
         font-size: 20px;
+    }
+    .btn {
+    
+        gap: 10px;
     }
 
     button{
@@ -218,6 +223,11 @@ body.dark .task.completed h3 {
     border-radius: 50%;
     line-height: 0;
     }
+    .buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 }
 
 
